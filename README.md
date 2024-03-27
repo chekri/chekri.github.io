@@ -6,4 +6,4 @@
 
 # Continuum Mechanics
 
-#
+# During my doctoral research, I studied the intrinsically curved elastic rods and their stability properties. If interested, you can read my dissertation here https://refubium.fu-berlin.de/handle/fub188/42994
