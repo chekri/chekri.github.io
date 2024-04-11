@@ -1,6 +1,7 @@
 # Siva Prasad Chakri Dhanakoti
 # PhD in Mathematics
-## I am  interested in employing the mathematical tools in studying the behavior of intricate systems around me with a goal of finding engineering solutions
+## Ph.D. Graduate in Applied Mathematics with expertise in Mathematical Modeling and Numerical Simulations. Skilled in developing mathematical models and utilizing computational tools such as Python and MATLAB to solve and analyze data. Eager to explore additional tools and domains for continued growth and innovation.
+
 ### Interests: Calculus of Variations, Continuum Mechanics, Optimal Control
 
 
