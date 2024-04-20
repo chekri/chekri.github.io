@@ -5,4 +5,4 @@
 ### Research Interests: Calculus of Variations, Continuum Mechanics, Optimal Control
 
 
-### During my doctoral research, I studied the intrinsically curved elastic rods and their stability properties. If interested, you can read my dissertation here \hyperlink{https://refubium.fu-berlin.de/handle/fub188/42994}
+### During my doctoral research, I studied the intrinsically curved elastic rods and their stability properties. If interested, you can read my dissertation https://refubium.fu-berlin.de/handle/fub188/42994
