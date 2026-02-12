@@ -2,20 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Curriculum Vita</title>
+    <title>Curriculum Vitae</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 60px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #1f3c88;
+        }
+
+        .education-item {
+            margin-bottom: 25px;
+        }
+
+        .degree {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .institution {
+            color: #555;
+        }
+
+        .year {
+            float: right;
+            font-weight: bold;
+            color: #1f3c88;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            .year {
+                float: none;
+                display: block;
+                margin-top: 5px;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
-    <main>
-        <p>PhD, Mathematics, Freie University Berlin, Berlin, GERMANY 2023</p>
-        <p>Masters in  Physics of Complex Systems, University of Paris- Cite,Paris, FRANCE 2018 </p>
-        <p>Masters in Mechanics, Ecole Polytechnique/University of Paris-Saclay, Palaiseau, FRANCE 2017</p>
-        <p>Bachelor of Technology in Mechanical Engineering, IIT Madras, Chennai, INDIA 2013</p>
-    </main>
+    <div class="container">
+        <h1>Curriculum Vitae</h1>
 
-    <footer>
-        <p>&copy; 2026 Chakri</p>
-    </footer>
+        <div class="education-item">
+            <span class="degree">Ph.D. in Mathematics</span>
+            <span class="year">2023</span><br>
+            <span class="institution">Freie University Berlin, Berlin, Germany</span>
+        </div>
+
+        <hr>
+
+        <div class="education-item">
+            <span class="degree">Master’s in Physics of Complex Systems</span>
+            <span class="year">2018</span><br>
+            <span class="institution">University of Paris Cité, Paris, France</span>
+        </div>
+
+        <hr>
+
+        <div class="education-item">
+            <span class="degree">Master’s in Mechanics</span>
+            <span class="year">2017</span><br>
+            <span class="institution">École Polytechnique / University of Paris-Saclay, Palaiseau, France</span>
+        </div>
+
+        <hr>
+
+        <div class="education-item">
+            <span class="degree">Bachelor of Technology in Mechanical Engineering</span>
+            <span class="year">2013</span><br>
+            <span class="institution">IIT Madras, Chennai, India</span>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Chakri</p>
+        </footer>
+    </div>
 
 </body>
 </html>
