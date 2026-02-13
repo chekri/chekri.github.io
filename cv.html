@@ -2,62 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CV</title>
+    <title>Curriculum Vitae</title>
 
     <style>
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f4f6f9;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #eef2f7, #f9fbfd);
             margin: 0;
             padding: 0;
-            color: #333;
+            color: #2c3e50;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 60px auto;
             background: #ffffff;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
         }
 
         h1 {
             text-align: center;
-            margin-bottom: 30px;
-            color: #1f3c88;
+            margin-bottom: 10px;
+            font-size: 2.2em;
+            letter-spacing: 1px;
+            color: #1a3c6e;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1em;
+            color: #6c7a89;
+            margin-bottom: 35px;
+        }
+
+        .section-title {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #1a3c6e;
+            color: #1a3c6e;
+        }
+
+        .personal-info {
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .personal-info strong {
+            display: inline-block;
+            width: 120px;
         }
 
         .education-item {
-            margin-bottom: 15px;
+            margin-bottom: 25px;
+            padding: 15px 20px;
+            border-left: 4px solid #1a3c6e;
+            background-color: #f8faff;
+            border-radius: 6px;
         }
 
         .degree {
-            font-weight: bold;
+            font-weight: 600;
             font-size: 1.1em;
-        }
-
-        .institution {
-            color: #555;
         }
 
         .year {
             float: right;
-            font-weight: bold;
-            color: #1f3c88;
+            font-weight: 600;
+            color: #1a3c6e;
+        }
+
+        .institution {
+            display: block;
+            margin-top: 5px;
+            color: #555;
+        }
+
+        .advisor {
+            display: block;
+            font-style: italic;
+            margin-top: 5px;
+            color: #444;
         }
 
         footer {
             text-align: center;
-            margin-top: 40px;
-            color: #777;
+            margin-top: 50px;
             font-size: 0.9em;
-        }
-
-        hr {
-            border: none;
-            border-top: 1px solid #eee;
-            margin: 20px 0;
+            color: #888;
         }
 
         @media (max-width: 600px) {
@@ -66,6 +100,10 @@
                 display: block;
                 margin-top: 5px;
             }
+
+            .personal-info strong {
+                width: 100%;
+            }
         }
     </style>
 </head>
@@ -73,46 +111,44 @@
 <body>
 
     <div class="container">
-        <h1>Curriculum vitae</h1>
-    <p>
-    Full Name: Siva Prasad Chakri Dhanakoti <hr>
-    Nationality: Indian <hr>
-    Languages: Telugu, English, German 
-    </p>
+        <h1>Siva Prasad Chakri Dhanakoti</h1>
+        <div class="subtitle">Curriculum Vitae</div>
 
-        <div class="education-item">
-            <span class="degree">Ph.D, Mathematics</span>
-            <span class="year">2018-2023</span><br>
-            <span class="institution">Free University Berlin, Berlin, Germany</span>
-            <span class="Advisors">Prof. John Maddocks </span>
+        <div class="section-title">Personal Information</div>
+        <div class="personal-info">
+            <p><strong>Nationality:</strong> Indian</p>
+            <p><strong>Languages:</strong> Telugu, English, German</p>
         </div>
 
-        <hr>
+        <div class="section-title">Education</div>
 
         <div class="education-item">
-            <span class="degree">Masters, Physics of Complex Systems</span>
-            <span class="year">2017-2018</span><br>
+            <span class="degree">Ph.D. in Mathematics</span>
+            <span class="year">2018 – 2023</span>
+            <span class="institution">Freie Universität Berlin, Berlin, Germany</span>
+            <span class="advisor">Advisor: Prof. John Maddocks</span>
+        </div>
+
+        <div class="education-item">
+            <span class="degree">Master’s in Physics of Complex Systems</span>
+            <span class="year">2017 – 2018</span>
             <span class="institution">University of Paris Cité, Paris, France</span>
         </div>
 
-        <hr>
-
         <div class="education-item">
-            <span class="degree">Masters, Multi-physics & Multi-scale Modelling of Materials and Structures</span>
-            <span class="year">2016-2017</span><br>
+            <span class="degree">Master’s in Multi-Physics & Multi-Scale Modelling of Materials and Structures</span>
+            <span class="year">2016 – 2017</span>
             <span class="institution">École Polytechnique / University of Paris-Saclay, Palaiseau, France</span>
         </div>
 
-        <hr>
-
         <div class="education-item">
             <span class="degree">Bachelor of Technology in Mechanical Engineering</span>
-            <span class="year">2009-2013</span><br>
+            <span class="year">2009 – 2013</span>
             <span class="institution">IIT Madras, Chennai, India</span>
         </div>
 
         <footer>
-            <p>&copy; 2026 Chakri</p>
+            © 2026 Chakri
         </footer>
     </div>
 
