@@ -3,4 +3,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 20px 20px;
+
+   /* Optional enhancements for a premium blog feel: */
+    line-height: 2.0;       /* Adds space between lines so text doesn't look crowded */
+    font-size: 25px;        /* Slightly larger font size for comfortable reading */
 }
