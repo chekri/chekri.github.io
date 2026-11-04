@@ -12,7 +12,7 @@ export default function Research() {
     <Section id="research" title="Research">
       <div className={`grid ${gap} md:grid-cols-2`}>
         <FocusCard {...current} />
-        <FocusCard {...phd} dark />
+        <FocusCard {...phd} />
       </div>
 
       <SubHeading>Interests</SubHeading>
