@@ -87,9 +87,9 @@ export const learning = {
   intro:
     "As a life long learner, I am always keen in learning topics in Mathematics and explore its applications in Mechanics. This list is not exhaustive and continues to grow.",
   topics: [
-    { label: "Port-Hamiltonian systems", },
-    { label: "Gamma-Convergence",  },
-    { label: "Group-theoretic approaches in Mechanics", },
+    { label: "Port-Hamiltonian systems"},
+    { label: "Gamma-Convergence"},
+    { label: "Group-theoretic approaches in Mechanics"},
   ],
 };
 
