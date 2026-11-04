@@ -136,7 +136,7 @@ export const publications = [
 
 export const theses = [
   {
-    fig: "rod",
+   /* fig: "rod",*/
     title:
       "Study of Intrinsically Curved Elastic Rods Under External Loads With Applications to Concentric Tube Continuum Robots and Their Control.",
     links: [
