@@ -32,12 +32,12 @@ export const nav = [
 
 export const research = {
   interests: [
-    { label: "Calculus of Variations", icon: "variations" },
-    { label: "Solid Mechanics", icon: "beam" },
-    { label: "Nonlinear Dynamics", icon: "wave" },
-    { label: "Optimization and Numerical Methods", icon: "optimize" },
-    { label: "Instabilities", icon: "hill" },
-    { label: "Bifurcation theory", icon: "fork" },
+    { label: "Calculus of Variations" },
+    { label: "Solid Mechanics" },
+    { label: "Nonlinear Dynamics" },
+    { label: "Optimization and Numerical Methods" },
+    { label: "Instabilities"},
+    { label: "Bifurcation theory"},
   ],
   focus: [
     { badge: "Now", label: "Current Research", text: "The dynamics of slender structures/architected structures.", keywords: "Dynamics, Vibrations, Non-local elasticity" },
@@ -87,9 +87,9 @@ export const learning = {
   intro:
     "As a life long learner, I am always keen in learning topics in Mathematics and explore its applications in Mechanics. This list is not exhaustive and continues to grow.",
   topics: [
-    { label: "Port-Hamiltonian systems", eq: "ẋ = (J − R)∇H + Bu" },
-    { label: "Gamma-Convergence", eq: "Γ-lim Fₙ = F" },
-    { label: "Group-theoretic approaches in Mechanics", eq: "G ↷ M" },
+    { label: "Port-Hamiltonian systems", },
+    { label: "Gamma-Convergence",  },
+    { label: "Group-theoretic approaches in Mechanics", },
   ],
 };
 
