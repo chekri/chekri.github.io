@@ -11,9 +11,6 @@ export default function Hero() {
       <PhasePortrait className="pointer-events-none absolute -right-[8%] top-[4%] w-[70%] max-w-3xl text-sage opacity-25" />
       <div className={`${wrap} relative grid items-center gap-[clamp(2rem,5vw,4rem)] lg:grid-cols-[1.15fr_1fr]`}>
         <div>
-          <h1 id="about-title" className="text-[clamp(3.2rem,11vw,7rem)] font-medium leading-[0.9] tracking-tight">{person.short}</h1>
-          <p className="mt-2 text-[clamp(1rem,2.2vw,1.35rem)] text-sage-deep">{person.full}</p>
-
           <div className="mt-6 max-w-[62ch] space-y-4">
             <p>I am {person.full}, a researcher working in the junction of Applied Mathematics, Mechanics, Physics and Engineering.</p>
             <p>
