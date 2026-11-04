@@ -96,7 +96,7 @@ export const learning = {
 /* "Other interests", rephrased. Original: running, playing cricket, observing nature, sometimes painting. */
 export const beyond = {
   intro: "Away from the desk, I like to run, play cricket and watch nature closely. Every so often I also try my hand at painting.",
-  items: ["Running", "Cricket", "Observing nature", "Painting"],
+  /*items: ["Running", "Cricket", "Observing nature", "Painting"],*/
 };
 
 /* PHOTOGRAPHY: copy images into public/images/photos/ and list them here, for example:
@@ -106,7 +106,7 @@ export const photos = [];
 
 export const publications = [
   {
-    fig: "fold",
+    /*fig: "fold",*/
     authors: "S. P. Chakri Dhanakoti",
     title: "Stability analysis through folds: an end-loaded elastica with a lever arm.",
     venue: "Proceedings of the Royal Society A (2025), 481(2325): 20250148.",
@@ -116,7 +116,7 @@ export const publications = [
     ],
   },
   {
-    fig: "cantilever",
+    /*fig: "cantilever", */
     authors: "S. P. Chakri Dhanakoti",
     title: "Stability of cantilever-like structures with applications to soft robot arms.",
     venue: "Proceedings of the Royal Society A (2025), 481(2312): 20240561.",
@@ -126,7 +126,7 @@ export const publications = [
     ],
   },
   {
-    fig: "tubes",
+    /*fig: "tubes",*/
     authors: "S. P. Chakri Dhanakoti, J. Maddocks, and M. Weiser",
     title: "Navigation of Concentric Tube Continuum Robots using Optimal Control.",
     venue: "ICINCO (2022), pp. 146–154.",
