@@ -8,7 +8,7 @@ import { person, links } from "../data/content.js";
 
 export default function Contact() {
   const [status, setStatus] = useState("");
-  const address = `${person.emailUser}@${person.emailHost}`;
+  const address = `${person.emailUser} at ${person.emailHost}`;
   const copy = async () => {
     try { await navigator.clipboard.writeText(address); setStatus("Address copied"); }
     catch { setStatus("Copy failed. Select the address instead."); }
@@ -19,7 +19,7 @@ export default function Contact() {
       <PhasePortrait className="pointer-events-none absolute -right-[8%] -top-[35%] z-0 w-[70%] text-sage opacity-25" />
       <div className="relative z-10 grid gap-[clamp(0.75rem,2vw,1.25rem)] md:grid-cols-[1.5fr_1fr]">
         <Tile tone="paper" label="Email" title="You can reach me at:">
-          <a href={`mailto:${address}`} className="block break-all text-[clamp(1.2rem,3.6vw,2.1rem)] font-medium leading-tight text-ink underline decoration-sage decoration-2 underline-offset-4 hover:decoration-ink">
+          <a className="block break-all text-[clamp(1.2rem,3.6vw,2.1rem)] font-medium leading-tight text-ink underline decoration-sage decoration-2 underline-offset-4 hover:decoration-ink">
             {address}
           </a>
           <div className="mt-5 flex flex-wrap items-center gap-3">
