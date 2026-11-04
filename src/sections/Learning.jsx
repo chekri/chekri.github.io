@@ -12,7 +12,7 @@ export default function Learning() {
       <SubHeading>Interested Topics</SubHeading>
       <ul className={`grid auto-rows-fr ${gap} sm:grid-cols-3`}>
         {learning.topics.map((t, k) => (
-          <Tile key={t.label} as="li" tone={["paper", "sage", "ink"][k % 3]} eq={t.eq} title={t.label} className="min-h-44" />
+          <Tile key={t.label} as="li" tone={["paper", "sage", "ink"][k % 1]} eq={t.eq} title={t.label} className="min-h-44" />
         ))}
       </ul>
 
