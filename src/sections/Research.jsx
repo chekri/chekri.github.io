@@ -18,7 +18,7 @@ export default function Research() {
       <SubHeading>Interests</SubHeading>
       <ul className={`grid auto-rows-fr grid-cols-2 lg:grid-cols-3 ${gap}`}>
         {research.interests.map((i, k) => (
-          <Tile key={i.label} as="li" tone={cycle[k % 1]} icon={i.icon} title={i.label} className="min-h-40 justify-center" />
+          <Tile key={i.label} as="li" icon={i.icon} title={i.label} className="min-h-40 justify-center" />
         ))}
       </ul>
 
