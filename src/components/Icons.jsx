@@ -9,7 +9,7 @@ const paths = {
 
 export default function Icon({ name, className = "h-6 w-6", tone }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"
+    <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"
       className={`${className} ${tone === "ink" ? "!text-sage" : ""}`} aria-hidden="true">
       <path d={paths[name]} />
     </svg>
