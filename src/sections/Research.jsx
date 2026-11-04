@@ -31,7 +31,7 @@ export default function Research() {
       <SubHeading>Talks</SubHeading>
       <ul className={`grid auto-rows-fr ${gap} md:grid-cols-3`}>
         {talks.map((t, k) => (
-          <Tile key={t.title} as="li" tone={["sepia", "paper", "sage"][k % 3]} label={t.event} title={t.title}>{t.place}</Tile>
+          <Tile key={t.title} as="li" tone={["sepia", "paper", "sage"][k % 1]} label={t.event} title={t.title}>{t.place}</Tile>
         ))}
       </ul>
     </Section>
