@@ -9,7 +9,7 @@ const gap = "gap-[clamp(0.75rem,2vw,1.25rem)]";
 export default function Research() {
   const [current, phd] = research.focus;
   return (
-    <Section id="research" title="Research" note="u_t − ∇·(κ∇u) = f">
+    <Section id="research" title="Research">
       <div className={`grid ${gap} md:grid-cols-2`}>
         <FocusCard {...current} />
         <FocusCard {...phd} dark />
