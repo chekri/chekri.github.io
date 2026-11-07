@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* palette from the moodboard: aged ivory, deep graphite, sage, pencil & sepia */
+@theme {
+  --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-hand: "Caveat", "Segoe Print", "Bradley Hand", cursive;
+  --color-paper: #f5efe2;
+  --color-card: #faf6ec;
+  --color-ink: #30352f;
+  --color-muted: #5d625b;
+  --color-sage: #84977b;
+  --color-sage-deep: #5b6f53;
+  --color-sage-tint: #dde6d4;
+  --color-sepia: #e9dcc8;
+  --color-rule: #d9d0bd;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; -webkit-text-size-adjust: 100%; }
+
+/* cartesian graph paper: minor + major grid */
+body {
+  @apply bg-paper font-serif text-ink antialiased;
+  font-size: clamp(1rem, 0.94rem + 0.3vw, 1.15rem);
+  line-height: 1.6;
+  background-image:
+    linear-gradient(rgba(132, 151, 123, 0.28) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(132, 151, 123, 0.28) 1px, transparent 1px),
+    linear-gradient(rgba(132, 151, 123, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(132, 151, 123, 0.12) 1px, transparent 1px);
+  background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
+}
+
+.graph {
+  background-color: #efe6d4;
+  background-image: linear-gradient(rgba(48, 53, 47, 0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(48, 53, 47, 0.07) 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
+:focus-visible { outline: 2px solid var(--color-sage-deep); outline-offset: 3px; border-radius: 4px; }
+.on-ink :focus-visible, footer :focus-visible { outline-color: var(--color-sage); }
+
+.draw { stroke-dasharray: 6000; stroke-dashoffset: 6000; animation: draw 3s ease-out forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .draw { animation: none; stroke-dashoffset: 0; }
+  html { scroll-behavior: auto; }
+}
