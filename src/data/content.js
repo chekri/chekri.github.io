@@ -148,6 +148,7 @@ export const theses = [
 ];
 
 export const talks = [
+   { title: "Elastica: Folds, Snapping, and so on", event: "GraPhyz3 ", year: "2026", place: "CIRM, Marseille, France" },
   { title: "Dynamics of origami-like microstructured elastic rods", event: "NHISMEH 2025", year: "2025", place: "Lucca, Italy" },
   { title: "Snapping of a soft-robotic arm", event: "ESMC 2022", year: "2022", place: "Galway, Ireland" },
   { title: "Navigation of Concentric Tube Continuum Robots using Optimal Control", event: "ICINCO 2022", year: "2022", place: "Lisbon, Portugal" },
