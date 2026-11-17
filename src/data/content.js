@@ -62,7 +62,7 @@ export const cv = {
       degree: "Master’s in Physics of Complex Systems",
       school: "University of Paris Cité",
       place: "Paris, France",
-      project: "Instabilities in Rlling Ribbons",
+      project: "Instabilities in Rolling Ribbons",
       focus: "Elastic structures, Nonlinear Dynamics",
       advisors: "Prof. Sebastien Neukirch, Prof. Arnaud Lazarus",
     },
